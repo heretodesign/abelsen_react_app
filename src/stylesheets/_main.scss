@@ -1,0 +1,38 @@
+.wrapper {
+    /* display: flex; */
+    align-items: stretch;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.main .row .col .card-body {
+    padding: 0px 0px;
+    border-color: transparent;
+}
+
+.main .row .col .card {
+    border: transparent;
+}
+
+.main .row .col .card .card-img-top {
+    height: 135px;
+    width: 180px;
+}
+
+.main .row .col .card #cards-text {
+    font-size: 14px;
+}
+
+.main .row .col .card #cards-text-name {
+    font-size: 11px;
+}

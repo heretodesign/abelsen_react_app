@@ -1,0 +1,41 @@
+#header {
+    height: 80px;
+    background: #F3F3F3;
+}
+
+#header .form-inline .form-control {
+    border-radius: 45%;
+}
+
+#header input::placeholder {
+    color: grey;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#header .navbar {
+    height: 80px;
+} 
+
+#header .avatar {
+    vertical-align: middle;
+    /* width: 50px;
+    height: 50px; */
+    border-radius: 50%;
+}
+
+#header .username {
+    vertical-align: middle;
+    color: grey;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+// .card-columns {
+//     @include media-breakpoint-only(lg) {
+//       column-count: 5;
+//     }
+//     @include media-breakpoint-only(xl) {
+//       column-count: 5;
+//     }
+// }
